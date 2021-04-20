@@ -45,6 +45,8 @@ class MahasiswaController extends Controller
             'Kelas' => 'required',
             'Jurusan' => 'required',
             'No_Handphone' => 'required',
+            'Email' => 'required',
+            'Tanggal_Lahir' => 'required',
         ]);
 
         //fungsi eloquent untuk menambah data
@@ -97,6 +99,8 @@ class MahasiswaController extends Controller
             'Kelas' => 'required',
             'Jurusan' => 'required',
             'No_Handphone' => 'required',
+            'Email' => 'required',
+            'Tanggal_Lahir' => 'required',
         ]);
 
         //fungsi eloquent untuk mengupdate data inputan kita
