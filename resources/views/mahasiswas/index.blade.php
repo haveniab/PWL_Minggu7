@@ -7,6 +7,7 @@
                 <h2>JURUSAN TEKNOLOGI INFORMASI-POLITEKNIK NEGERI MALANG</h2>
             </div>
             <div class="float-right my-2">
+
                 <a class="btn btn-success" href="{{ route('mahasiswas.create') }}"> Input Mahasiswa</a>
             </div>
         </div>
@@ -29,6 +30,7 @@
             <th>Tanggal_Lahir</th>
             <th width="280px">Action</th>
         </tr>
+        
         @foreach ($mahasiswas as $Mahasiswa)
         <tr>
 
@@ -52,4 +54,5 @@
         </tr>
         @endforeach
     </table>
+    {{$mahasiswas->links('pagination::bootstrap-4')}}
 @endsection 

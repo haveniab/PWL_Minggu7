@@ -28,20 +28,20 @@
                 </div>
                 <div class="form-group">
                     <label for="Nama">Nama</label> 
-                    <input type="Nama" name="Nama" class="form-control" id="Nama" aria-describedby="Nama" > 
+                    <input type="text" name="Nama" class="form-control" id="Nama" aria-describedby="Nama" > 
                 </div>
                 <div class="form-group">
                     <label for="Kelas">Kelas</label>
-                    <input type="Kelas" name="Kelas" class="form-control" id="Kelas" aria-describedby="password" > 
+                    <input type="text" name="Kelas" class="form-control" id="Kelas" aria-describedby="password" > 
                 </div>
                 <div class="form-group">
                     <label for="Jurusan">Jurusan</label> 
-                    <input type="Jurusan" name="Jurusan" class="form-control" id="Jurusan" aria-describedby="Jurusan" > 
+                    <input type="text" name="Jurusan" class="form-control" id="Jurusan" aria-describedby="Jurusan" > 
                 </div>
                 <div class="form-group">
                     <label for="No_Handphone">No_Handphone</label> 
 
-                    <input type="No_Handphone" name="No_Handphone" class="form-control" id="No_Handphone" aria-describedby="No_Handphone" > 
+                    <input type="text" name="No_Handphone" class="form-control" id="No_Handphone" aria-describedby="No_Handphone" > 
                 </div>
                 <div class="form-group">
                     <label for="Email">Email</label> 
@@ -51,7 +51,7 @@
                 <div class="form-group">
                     <label for="Tanggal_Lahir">Tanggal_Lahir</label> 
 
-                    <input type="Tanggal_Lahir" name="Tanggal_Lahir" class="form-control" id="Tanggal_Lahir" aria-describedby="Tanggal_Lahir" > 
+                    <input type="date" name="Tanggal_Lahir" class="form-control" id="Tanggal_Lahir" aria-describedby="Tanggal_Lahir" >
                 </div>
             <button type="submit" class="btn btn-primary">Submit</button>
             </form>
